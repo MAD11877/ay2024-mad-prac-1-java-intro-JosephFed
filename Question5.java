@@ -27,7 +27,7 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    ArrayList<int> numberList = new ArrayList<>();
+    ArrayList<Integer> numberList = new ArrayList<>();
     int num1 = in.nextInt();
     for(int i = num1; num1>0;i--){
       int num = in.nextInt();
