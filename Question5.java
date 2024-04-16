@@ -44,10 +44,10 @@ public class Question5
       }
       if (count>maxCount){
         maxCount = count;
-        maxNum = numberList.get(i)
+        maxNum = numberList.get(i);
       }
 
     }
-    System.out.println(maxNum)
+    System.out.println(maxNum);
   }
 }
