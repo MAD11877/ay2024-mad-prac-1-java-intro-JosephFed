@@ -46,7 +46,6 @@ public class Question5
         maxCount = count;
         maxNum = numberList.get(i);
       }
-
     }
     System.out.println(maxNum);
   }
