@@ -1,6 +1,5 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-import java.util.NoSuchElementException;
 
 public class Question5
 {
@@ -26,7 +25,7 @@ public class Question5
      *     > 3
      *     2
      * Hint: Use a loop to get input. Use another 2 loops to find the mode
-     */
+    */
      
     Scanner in = new Scanner(System.in);
     ArrayList<Integer> numberList = new ArrayList<>();
