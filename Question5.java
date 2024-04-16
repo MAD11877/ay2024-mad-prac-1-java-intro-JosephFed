@@ -30,7 +30,7 @@ public class Question5
     Scanner in = new Scanner(System.in);
     ArrayList<Integer> numberList = new ArrayList<Integer>();
     int num1 = in.nextInt();
-    for(int i = num1; num1>0;i--){
+    for(int i = num1; i>0;i--){
       int num = in.nextInt();
       numberList.add(num);
     }
