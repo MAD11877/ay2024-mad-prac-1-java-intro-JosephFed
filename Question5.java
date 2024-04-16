@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+import java.util.ArrayList;
 public class Question5
 {
   public static void main(String[] args)
@@ -27,16 +27,27 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    ArrayList<int> numberList = new ArrayList<int>();
-    System.out.println("Enter an integer");
+    ArrayList<int> numberList = new ArrayList<>();
     int num1 = in.nextInt();
-    numberList.add(num1);
-    for(i = num1; num1>0;i--){
+    for(int i = num1; num1>0;i--){
       int num = in.nextInt();
       numberList.add(num);
     }
-    for (int i = 0; i < numberList.length; i++){
-      
+    int maxCount=0;
+    int maxNum = 0;
+    for (int i = 0; i < numberList.size(); i++){
+      int count = 0;
+      for(int j = 0; j < numberList.size(); j++){
+        if (numberList.get(j) = numberList.get(i)){
+          count++;
+        }
+      }
+      if (count>maxCount){
+        maxCount = count;
+        maxNum = numberList.get(i)
+      }
+
     }
+    System.out.println(maxNum)
   }
 }
