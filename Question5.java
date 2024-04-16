@@ -38,7 +38,7 @@ public class Question5
     for (int i = 0; i < numberList.size(); i++){
       int count = 0;
       for(int j = 0; j < numberList.size(); j++){
-        if (numberList.get(j) = numberList.get(i)){
+        if (numberList.get(j) == numberList.get(i)){
           count++;
         }
       }
