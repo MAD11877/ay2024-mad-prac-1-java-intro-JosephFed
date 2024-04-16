@@ -27,6 +27,16 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    
+    ArrayList<int> numberList = new ArrayList<int>();
+    System.out.println("Enter an integer");
+    int num1 = in.nextInt();
+    numberList.add(num1);
+    for(i = num1; num1>0;i--){
+      int num = in.nextInt();
+      numberList.add(num);
+    }
+    for (int i = 0; i < numberList.length; i++){
+      
+    }
   }
 }
